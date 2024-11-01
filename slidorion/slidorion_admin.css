@@ -1,0 +1,59 @@
+.add-image-holder {
+    cursor: pointer;
+    padding: 10px;
+}
+
+.image-holder > div {
+    margin-top: 6px;
+}
+
+.image-holder h3, .add-image-holder h3 {
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+}
+
+.image-holder img {
+    border: 1px solid #ccc;
+    height: 260px;
+    width: 300px;
+}
+
+.image-holder textarea, .image-holder input {
+    padding: 4px;
+    border: 1px solid #ccc;
+    float: right;
+    margin-top: -1px;
+    width: 165px;
+}
+
+.image-holder textarea {
+    height: 228px;
+    margin-top: 10px;
+}
+
+.image-holder a.remove {
+    float: right;
+}
+
+.image-holder > div > a {
+    float: left;
+}
+
+.image-holder, .add-image-holder {
+    background: #fbfbfb;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    overflow: auto;
+    padding: 10px;
+}
+
+.widefat {
+    margin: 20px 0;
+}
+
+.widefat td {
+    padding: 10px;
+}
+
